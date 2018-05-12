@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>relative url templates</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Welcome to the relative url page</h1>
+    <a href="{% url 'basic_app:other' %}">Click here to go to the other page</a>
+    <br>
+    <a href="{% url 'admin:index' %}">Click here to go the the admin site</a>
+</body>
+</html>
